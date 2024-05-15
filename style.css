@@ -3,7 +3,16 @@
   color: aliceblue;
   font-family: "Trebuchet MS";
 }
-
+img {
+  border-radius: 80px;
+}
+.projectCreation {
+  background-color: rgb(59, 152, 239);
+  color: aliceblue;
+  padding: 3%;
+  border: 0;
+  font-family: "Trebuchet MS";
+}
 ul {
   list-style-type: none;
 }
@@ -12,6 +21,6 @@ ul {
   background-color: rgb(231, 236, 241);
 }
 
-.proj {
+.project {
   background-color: white;
 }
