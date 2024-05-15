@@ -1,0 +1,17 @@
+.dashboard {
+  background-color: rgb(59, 152, 239);
+  color: aliceblue;
+  font-family: "Trebuchet MS";
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mainPanel {
+  background-color: rgb(231, 236, 241);
+}
+
+.proj {
+  background-color: white;
+}
