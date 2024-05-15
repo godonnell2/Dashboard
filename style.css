@@ -1,7 +1,24 @@
+.fullPageContainer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 3fr;
+}
 .dashboard {
+  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
   background-color: rgb(59, 152, 239);
   color: aliceblue;
   font-family: "Trebuchet MS";
+}
+li {
+  margin-top: 10%;
+}
+
+.controlMenu {
+}
+
+.topnav {
 }
 img {
   border-radius: 80px;
@@ -13,14 +30,27 @@ img {
   border: 0;
   font-family: "Trebuchet MS";
 }
+
 ul {
   list-style-type: none;
 }
 
 .mainPanel {
+  grid-column: 2/3;
   background-color: rgb(231, 236, 241);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .project {
   background-color: white;
+  grid-column: 1/3;
+}
+
+.announcementBox {
+  grid-column: 2/3;
+}
+.userBox {
+  grid-column: 2/3;
 }
