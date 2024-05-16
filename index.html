@@ -6,62 +6,116 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Dashboard</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script src="index.js"></script>
     <div class="fullPageContainer">
-    <div class="dashboard">
-      <div class="dashboardIcon">Dashboard</div>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Profile</li>
-          <li>Messages</li>
-          <li>History</li>
-          <li>Tasks</li>
-          <li class="controlMenu">Communities</li>
-          <li class="controlMenu">Settings</li>
-          <li class="controlMenu">Support</li>
-          <li class="controlMenu">Privacy</li>
-        </ul>
-      </nav>
-    </div>
+      <div class="dashboard">
+        <div class="dashboardIcon">Dashboard</div>
+        <nav>
+          <ul>
+            <li>Home</li>
+            <li>Profile</li>
+            <li>Messages</li>
+            <li>History</li>
+            <li>Tasks</li>
+            <li class="controlMenu">Communities</li>
+            <li class="controlMenu">Settings</li>
+            <li class="controlMenu">Support</li>
+            <li class="controlMenu">Privacy</li>
+          </ul>
+        </nav>
+      </div>
 
-    <div class="topnav">
-      <input type="text" placeholder="Search.." />
-      <img src="User Profile.jpg" alt="Girl in a jacket" width="50" />
-      <p>Grace O Donnell</p>
-      <button type="button" class="icon-button">Notifications</button>
-      <img src="User Profile.jpg" alt="Girl in a jacket" width="100" />
-      <p>Hi there,</p>
-      <p>Grace O Donnell (@Grace)</p><br></br>
-      <button type="button" class="projectCreation">New</button>
-      <button type="button" class="projectCreation">Upload</button>
-      <button type="button" class="projectCreation">Share</button>
-    </div>
+      <div class="topnav">
+        <div class="searchLine">
+          <input type="text" placeholder="Search.." />
+          <img src="User Profile.jpg" alt="User Profile Picture" width="50" />
+          <p>Grace O Donnell</p>
+        </div>
+        <div class="projNav">
+          <button type="button" class="icon-button">Notifications</button>
+          <img src="User Profile.jpg" alt="User Profile Picture" width="100" />
+          <p>Hi there,</p>
+          <br /><br />
+          <p>Grace O Donnell (@Grace)</p>
+          <button type="button" class="projectCreation">New</button>
+          <button type="button" class="projectCreation">Upload</button>
+          <button type="button" class="projectCreation">Share</button>
+        </div>
+      </div>
 
-    <div class = "mainPanel">
-     <p>Your Projects</p> 
-     <div class="projectPanel">
-      <div class="project">Proj 1</div>
-      <div class="project">Proj 2</div>
-      <div class="project">Proj 3</div>
-      <div class="project">Proj 4</div>
-      <div class="project">Proj 5</div>
-      <div class="project">Proj 6</div>
-     </div class="announcementBox">
-     <p>Announcements</p>
-     <div class="story">site maintenance </div>
-     <div class="story">community share </div>
-     <div class="story">updated policy</div>
-     </div>
-     <div class="userBox">
-     <p>Trending</p>
-     <div class="user">user 1 </div>
-     <div class="user">user 2</div>
-     <div class="user">user 3</div>
+      <div class="mainPanel">
+        <p>Your Projects</p>
+        <div class="projectPanel">
+          <div class="project">
+            <p class="title">Proj 1</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+          <div class="project">
+            <p class="title">Proj 2</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+          <div class="project">
+            <p class="title">Proj 3</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+          <div class="project">
+            <p class="title">Proj 4</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+          <div class="project">
+            <p class="title">Proj 5</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+          <div class="project">
+            <p class="title">Proj 6</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...
+            </p>
+          </div>
+        </div>
+        <div class="announcementBox">
+          <p>Announcements</p>
+          <div class="story">site maintenance</div>
+          <div class="story">community share</div>
+          <div class="story">updated policy</div>
+        </div>
+        <div class="userBox">
+          <p>Trending</p>
+          <div class="user">user 1</div>
+          <div class="user">user 2</div>
+          <div class="user">user 3</div>
+        </div>
+      </div>
     </div>
-    </div>
-  </div>
   </body>
 </html>
