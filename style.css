@@ -21,9 +21,21 @@ li {
 
 .topnav {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto auto;
 }
+
+.searchLine {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: minmax(25ch, 75ch) 1fr auto auto;
+}
+.fileNav {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: auto 4fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
 img {
   border-radius: 80px;
 }
