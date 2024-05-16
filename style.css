@@ -23,26 +23,52 @@ li {
   display: grid;
   grid-template-rows: auto auto;
 }
-
+#userLowerPic {
+  margin-bottom: -10%;
+}
 .searchLine {
   display: grid;
   gap: 5px;
   grid-template-columns: minmax(25ch, 75ch) 1fr auto auto;
 }
+#search {
+  background-color: rgb(231, 236, 241);
+}
 .fileNav {
   display: grid;
   gap: 5px;
-  grid-template-columns: auto 4fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr auto 2fr 3fr;
+  grid-template-rows: auto auto;
   align-items: center;
 }
 
-img {
-  border-radius: 80px;
+#hiThere {
+  display: flex;
+  align-self: flex-end;
 }
+
 .projectCreation {
+  grid-column: 4/5;
+  grid-row: 2;
+  padding-top: 0;
+  margin-top: -10%;
+  justify-self: end;
+}
+
+h4 {
+  padding-top: 0;
+  margin-top: -10%;
+  grid-row: 2;
+  grid-column: 2;
+}
+
+img {
+  justify-self: end;
+  border-radius: 150px;
+}
+.pcButtons {
   background-color: rgb(59, 152, 239);
   color: aliceblue;
-  padding: 3%;
   border: 0;
   font-family: "Trebuchet MS";
 }
@@ -71,9 +97,11 @@ ul {
 
 .announcementBox {
   grid-column: 2/3;
+  justify-self: end;
 }
 .story {
 }
 .userBox {
   grid-column: 2/3;
+  justify-self: end;
 }
