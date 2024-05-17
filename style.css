@@ -130,15 +130,23 @@ ul {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 14px;
 }
+
 .project {
-  background-color: white;
+  background-color: #fafaf9;
+  height: 220px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .button {
   background-color: rgba(0, 0, 0, 0);
   border-width: 0;
+  display: flex;
 }
 .buttons img {
-  height: 2rem;
+  height: 1.4rem;
   filter: invert(71%) sepia(51%) saturate(6457%) hue-rotate(187deg)
     brightness(97%) contrast(93%);
 }
