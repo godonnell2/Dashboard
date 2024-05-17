@@ -25,6 +25,17 @@
   font-family: "Roboto", "san-serif";
 }
 
+.notificationButton {
+  background-color: white;
+  border-width: 0;
+}
+
+.notificationButton img {
+  height: 1.5rem;
+  filter: invert(71%) sepia(51%) saturate(6457%) hue-rotate(187deg)
+    brightness(97%) contrast(93%);
+}
+
 li {
   margin-top: 2ch;
 }
@@ -127,7 +138,7 @@ ul {
   border-width: 0;
 }
 .buttons img {
-  height: 1.2rem;
+  height: 2rem;
   filter: invert(71%) sepia(51%) saturate(6457%) hue-rotate(187deg)
     brightness(97%) contrast(93%);
 }
