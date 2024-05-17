@@ -130,20 +130,21 @@ ul {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 14px;
 }
+.title {
+  font-size: 1.5rem;
+}
 
 .project {
   background-color: #fafaf9;
   height: 220px;
   padding: 10px 10px;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 }
+
 .button {
   background-color: rgba(0, 0, 0, 0);
   border-width: 0;
-  display: flex;
+  float: right;
 }
 .buttons img {
   height: 1.4rem;
