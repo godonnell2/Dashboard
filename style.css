@@ -26,18 +26,16 @@ li {
 
 .topnav {
   display: grid;
-
   margin-bottom: 2%;
   grid-template-rows: auto;
-  align-content: start;
 }
 
 /* Consistent styles for all of the icons */
-.content-links li a img {
-  /* Margin for all images */
+.dashboard img {
   margin-right: 0.8rem;
-  height: 1rem;
-  color: white;
+  height: 1.2rem;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(212deg)
+    brightness(103%) contrast(102%);
 }
 
 #userLowerPic {
