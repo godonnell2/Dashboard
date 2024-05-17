@@ -122,6 +122,10 @@ ul {
 .project {
   background-color: white;
 }
+.button {
+  background-color: rgba(0, 0, 0, 0);
+  border-width: 0;
+}
 .buttons img {
   height: 1.2rem;
   filter: invert(71%) sepia(51%) saturate(6457%) hue-rotate(187deg)
