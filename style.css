@@ -1,13 +1,12 @@
 .fullPageContainer {
   display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 3fr;
+  grid-template-columns: auto 3fr;
+  grid-template-rows: 14ch 4fr;
   font-family: "Roboto";
 }
 .dashboard {
+  margin-top: 1%;
   grid-row: 1/3;
-  display: flex;
-  flex-direction: column;
   background-color: rgb(59, 152, 239);
   color: aliceblue;
   font-family: "Roboto", "san-serif";
@@ -21,15 +20,20 @@ li {
 
 .topnav {
   display: grid;
+
   grid-template-rows: auto auto;
 }
 #userLowerPic {
   margin-bottom: -10%;
 }
+
 .searchLine {
   display: grid;
   gap: 5px;
-  grid-template-columns: minmax(25ch, 75ch) 1fr auto auto;
+  grid-template-columns: minmax(25ch, 75ch) 1fr 1fr auto auto;
+}
+#notificationButton {
+  grid-column: 3/5;
 }
 #search {
   background-color: rgb(231, 236, 241);
@@ -69,8 +73,9 @@ img {
 .pcButtons {
   background-color: rgb(59, 152, 239);
   color: aliceblue;
-  border: 0;
   font-family: "Trebuchet MS";
+  border-radius: 80px;
+  border-color: rgb(59, 152, 239);
 }
 
 ul {
