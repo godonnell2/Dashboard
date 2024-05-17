@@ -122,7 +122,10 @@ ul {
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
-
+h2 {
+  font-size: 1.5rem;
+  padding-left: 1%;
+}
 .projectPanel {
   grid-column: 1/2;
   display: grid;
@@ -135,16 +138,14 @@ ul {
 }
 
 .project {
-  background-color: #fafaf9;
-  height: 220px;
   padding: 10px 10px;
   border-radius: 10px;
+  background-color: white;
 }
 
 .button {
   background-color: rgba(0, 0, 0, 0);
   border-width: 0;
-  float: right;
 }
 .buttons img {
   height: 1.4rem;
