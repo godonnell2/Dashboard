@@ -1,5 +1,5 @@
 :root {
-  --clrBkgrdGray: rgb(226 232 240);
+  --clrBkgrdGray: rgb(200, 207, 215);
 }
 
 .fullPageContainer {
@@ -25,11 +25,21 @@ li {
 }
 
 .topnav {
-  position: sticky;
   display: grid;
+
   margin-bottom: 2%;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto;
+  align-content: start;
 }
+
+/* Consistent styles for all of the icons */
+.content-links li a img {
+  /* Margin for all images */
+  margin-right: 0.8rem;
+  height: 1rem;
+  color: white;
+}
+
 #userLowerPic {
   margin-bottom: -10%;
 }
@@ -45,7 +55,7 @@ li {
 #search {
   padding: 0.2rem 1rem;
   border-width: 0;
-  background-color: --clrBkgrdGray;
+  background-color: var(--clrBkgrdGray);
   border-radius: 80px;
 }
 .fileNav {
