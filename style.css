@@ -4,13 +4,21 @@
 
 .fullPageContainer {
   display: grid;
-  grid-template-columns: auto 3fr;
+  grid-template-columns: 30ch 3fr;
   grid-template-rows: 14ch 4fr;
   font-family: "Roboto";
+}
+.dashboardIcon {
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding-left: 10%;
+  padding-top: 10%;
 }
 .dashboard {
   margin-top: 1%;
   grid-row: 1/3;
+  font-size: 1.1rem;
+  padding-right: 20%;
   background-color: rgb(59, 152, 239);
   color: aliceblue;
   max-height: 100vh;
@@ -18,10 +26,7 @@
 }
 
 li {
-  margin-top: 10%;
-}
-
-.controlMenu {
+  margin-top: 2ch;
 }
 
 .topnav {
@@ -32,7 +37,6 @@ li {
 
 /* Consistent styles for all of the icons */
 .dashboard img {
-  align-items: start;
   margin-right: 0.8rem;
   height: 1.2rem;
   filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(212deg)
