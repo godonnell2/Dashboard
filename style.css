@@ -122,7 +122,11 @@ ul {
 .project {
   background-color: white;
 }
-
+.buttons img {
+  height: 1.2rem;
+  filter: invert(71%) sepia(51%) saturate(6457%) hue-rotate(187deg)
+    brightness(97%) contrast(93%);
+}
 .announcementBox {
   grid-column: 2/3;
   justify-self: end;
