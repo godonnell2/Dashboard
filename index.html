@@ -17,16 +17,23 @@
     <script src="index.js"></script>
     <div class="fullPageContainer">
       <div class="dashboard">
+        <img src="assets/dashboard.svg" />
         <div class="dashboardIcon">Dashboard</div>
+
         <nav>
           <ul>
+            <img src="assets/icons8-home.svg" />
             <li>Home</li>
+            <img src="assets/Home" />
             <li>Profile</li>
+            <img src="assets/Messages" />
             <li>Messages</li>
+            <img src="assets/Messages" />
             <li>History</li>
             <li>Tasks</li>
             <li class="controlMenu">Communities</li>
             <li class="controlMenu">Settings</li>
+            <img src="assets/help-box.svg" />
             <li class="controlMenu">Support</li>
             <li class="controlMenu">Privacy</li>
           </ul>
@@ -35,9 +42,14 @@
 
       <div class="topnav">
         <div class="searchLine">
-          <input type="text" placeholder="Search.." />
-          <button type="button" class="icon-button">Notifications</button>
-          <img src="User Profile.jpg" alt="User Profile Picture" width="30" />
+          <input type="text" id="search" placeholder="Search.." />
+          <button type="button" class="noticationButton">Notification</button>
+          <img
+            src="User Profile.jpg"
+            id="userLowerPic"
+            alt="User Profile Picture"
+            width="30"
+          />
           <p>Grace O Donnell</p>
         </div>
         <div class="fileNav">
@@ -45,9 +57,9 @@
           <p id="hiThere">Hi there,</p>
           <h4>Grace O Donnell (@Grace)</h4>
           <div class="projectCreation">
-            <button type="button">New</button>
-            <button type="button">Upload</button>
-            <button type="button">Share</button>
+            <button type="button" class="pcButtons">New</button>
+            <button type="button" class="pcButtons">Upload</button>
+            <button type="button" class="pcButtons">Share</button>
           </div>
         </div>
       </div>
