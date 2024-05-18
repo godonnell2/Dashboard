@@ -204,7 +204,13 @@ h2 {
 
 .user {
     display: flex;
-    align-items: left;
-    justify-content: center
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 200;
   }
   
+  .user img {
+    border-radius: 50%;
+
+
+  }
