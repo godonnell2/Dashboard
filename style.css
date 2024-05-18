@@ -121,6 +121,7 @@ ul {
   background-color: rgb(231, 236, 241);
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto auto;
 }
 h2 {
   font-size: 1.5rem;
@@ -153,11 +154,18 @@ h2 {
 }
 .announcementBox {
   grid-column: 2/3;
+  grid-row: 2;
   justify-self: end;
+}
+.innerAnnouncementBox {
+  background-color: white;
 }
 .story {
 }
 .userBox {
-  grid-column: 2/3;
   justify-self: end;
+}
+
+.innerUserBox {
+  background-color: white;
 }
