@@ -54,14 +54,17 @@ li {
     brightness(103%) contrast(102%);
 }
 
-#userLowerPic {
-  margin-bottom: -10%;
+#userHigherPic {
+ display: flex;
+ align-items: center;
 }
+
+
 
 .searchLine {
   display: grid;
-  gap: 5px;
   grid-template-columns: minmax(25ch, 50ch) 1fr 1fr auto auto;
+  gap: 10px;
 }
 #notificationButton {
   grid-column: 3/5;
@@ -71,6 +74,8 @@ li {
   border-width: 0;
   background-color: var(--clrBkgrdGray);
   border-radius: 80px;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 .fileNav {
   display: grid;
