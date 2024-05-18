@@ -158,12 +158,28 @@ h2 {
 .announcementBox {
   grid-column: 2/3;
   grid-row: 2;
+  padding: 1.2rem;
+  padding-right.8rem: ;
   justify-self: end;
+}
+
+.story {
+  padding: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
 }
 .innerAnnouncementBox {
   background-color: white;
   box-shadow: 5px 5px 5px #dddddd;
 }
+.innerAnnouncementBox h4 {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.innerAnnouncementBox p {
+  font-size: 0.5rem;
+}
+
 .story {
 }
 .userBox {
