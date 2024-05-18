@@ -191,13 +191,20 @@ h2 {
   font-size: 0.5rem;
 }
 
-.story {
-}
+
 .userBox {
   justify-self: end;
 }
+
 
 .innerUserBox {
   background-color: white;
   box-shadow: 5px 5px 5px #dddddd;
 }
+
+.user {
+    display: flex;
+    align-items: left;
+    justify-content: center
+  }
+  
